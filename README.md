@@ -19,20 +19,25 @@ Endpoint: https://shopify-backend-challenge--arthurhohinng.repl.co/inventory/lis
 
 ### Delete an inventory item
 Pass an inventory item id into the url
+
 Endpoint: https://shopify-backend-challenge--arthurhohinng.repl.co/inventory/delete-item/<int:pk>/
+
 For example if I want to delete an inventory item with id = 1: https://shopify-backend-challenge--arthurhohinng.repl.co/inventory/delete-item/1/
 
 ### Edit an inventory item
 Pass an inventory item id into the url
-Endpoint: https://shopify-backend-challenge--arthurhohinng.repl.co/inventory/delete-item/<int:pk>/
-For example if I want to edit an inventory item with id = 1: https://shopify-backend-challenge--arthurhohinng.repl.co/inventory/delete-item/1/
+Endpoint: https://shopify-backend-challenge--arthurhohinng.repl.co/inventory/edit-item/<int:pk>/
+
+For example if I want to edit an inventory item with id = 1: https://shopify-backend-challenge--arthurhohinng.repl.co/inventory/edit-item/1/
 
 ### Create a warehouse
 Endpoint: https://shopify-backend-challenge--arthurhohinng.repl.co/warehouses/create/
 
 ### List stock in a warehouse
 Pass a warehouse id into the url
+
 Endpoint: https://shopify-backend-challenge--arthurhohinng.repl.co/warehouses/<int:pk>/
+
 For example if I want to see the stock at warehouse with id = 1: https://shopify-backend-challenge--arthurhohinng.repl.co/warehouses/1/
 
 ### Assign stock to a warehouse
